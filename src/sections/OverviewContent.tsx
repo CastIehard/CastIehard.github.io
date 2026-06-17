@@ -63,8 +63,8 @@ export default function OverviewContent() {
             <div
               className="overflow-hidden"
               style={{
-                width: '64px',
-                height: '64px',
+                width: 'clamp(112px, 14vw, 152px)',
+                height: 'clamp(112px, 14vw, 152px)',
                 border: '1px solid var(--border-color)',
               }}
             >

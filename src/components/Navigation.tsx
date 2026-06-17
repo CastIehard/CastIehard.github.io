@@ -5,15 +5,6 @@ interface NavigationProps {
 }
 
 export default function Navigation({ lenisRef }: NavigationProps) {
-  const handleNavClick = useCallback((targetId: string) => {
-    if (lenisRef.current) {
-      const target = document.getElementById(targetId);
-      if (target) {
-        lenisRef.current.scrollTo(target, { offset: -80, duration: 1.2 });
-      }
-    }
-  }, [lenisRef]);
-
   const handleLogoClick = useCallback(() => {
     if (lenisRef.current) {
       lenisRef.current.scrollTo(0, { duration: 1.2 });
@@ -33,22 +24,7 @@ export default function Navigation({ lenisRef }: NavigationProps) {
         Luca Burghard
       </button>
 
-      <div className="flex items-center gap-8">
-        {[
-          { label: 'Overview', target: 'overview-section' },
-          { label: 'Life', target: 'life-section' },
-          { label: 'Projects', target: 'projects-section' },
-        ].map((item) => (
-          <button
-            key={item.target}
-            onClick={() => handleNavClick(item.target)}
-            className="font-body text-[12px] uppercase tracking-[0.1em] transition-colors duration-300 hover:text-[var(--accent)]"
-            style={{ color: 'var(--secondary-text)', background: 'none', border: 'none', cursor: 'pointer' }}
-          >
-            {item.label}
-          </button>
-        ))}
-      </div>
+      <div />
     </nav>
   );
 }
