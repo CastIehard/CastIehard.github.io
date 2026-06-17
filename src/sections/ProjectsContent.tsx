@@ -1,25 +1,36 @@
 export default function ProjectsContent() {
   const projects = [
     {
-      name: 'AI Chatbot for Programming IDE',
-      context: 'SEW-EURODRIVE \u00b7 Bachelor\u2019s Project \u00b7 2023/24',
+      name: 'Realtime Writing Retriever',
+      context: 'Public GitHub \u00b7 Python \u00b7 2025',
       description:
-        'Developed an intelligent chatbot to provide engineers with instant access to user guides and technical manuals within their programming environment. Evaluated multiple architectures and built two functional prototypes: one using locally-running open-source LLMs for privacy-sensitive environments, and another leveraging GPT-4 via Azure OpenAI for maximum capability. The project involved RAG architecture design, embedding model selection, vector database integration, and comprehensive testing against real engineering queries.',
-      tags: ['PYTHON', 'LLM', 'RAG', 'AZURE OPENAI', 'VECTOR DB', 'C#'],
+        'A writing-support experiment around retrieving context while text is being drafted. It reflects the kind of tooling I like: small, focused systems that make AI useful in the flow of work instead of turning it into a separate destination.',
+      href: 'https://github.com/CastIehard/Realtime-Writing-Retriever',
+      tags: ['PYTHON', 'RETRIEVAL', 'WRITING TOOLS', 'LLM WORKFLOWS'],
     },
     {
-      name: 'Machine Learning Stock Prediction',
-      context: 'Personal \u00b7 Study Paper \u00b7 2023/24',
+      name: 'LLM Grammaticalization Prediction',
+      context: 'Public GitHub \u00b7 Python \u00b7 2025',
       description:
-        'Built an end-to-end machine learning pipeline to predict stock price movements using six months of daily trading data with over 120 features per day. Experimented with multiple algorithms \u2014 from random forests to LSTM networks \u2014 and evaluated their performance through simulated virtual portfolio trading. The system runs autonomously, executing daily predictions and tracking simulated returns against a buy-and-hold baseline strategy.',
-      tags: ['PYTHON', 'MACHINE LEARNING', 'PANDAS', 'SCIKIT-LEARN', 'FINANCE'],
+        'Tools and experiments for using language models to classify degrees of grammaticalization in linguistic datasets. A good example of how I approach applied AI: define the evaluation task, build the pipeline, and keep the output inspectable.',
+      href: 'https://github.com/CastIehard/LLM-Grammaticalization-Prediction',
+      tags: ['PYTHON', 'LLMS', 'CLASSIFICATION', 'LINGUISTICS'],
     },
     {
-      name: 'Art Maker \u2014 Portrait Transformation',
-      context: 'Personal \u00b7 Side Project \u00b7 2023',
+      name: 'AI Chatbot for Engineering Software',
+      context: 'SEW-EURODRIVE \u00b7 Bachelor Thesis \u00b7 2024',
       description:
-        "A creative fusion of programming and artistic vision. Art Maker uses machine learning to analyze reference images provided by the user and automatically adjusts style parameters to transform portraits into artistic renditions. The program learns aesthetic preferences through an iterative feedback loop, progressively refining its output to match the user's creative intent. An exploration of how AI can serve as a collaborative tool for personal expression.",
-      tags: ['PYTHON', 'ML', 'COMPUTER VISION', 'CREATIVE AI'],
+        'Evaluated chatbot architectures for an engineering IDE and built working prototypes with local open-source LLMs and Azure OpenAI. The work covered RAG design, embeddings, vector search, privacy constraints, and testing against real engineering questions.',
+      href: 'https://github.com/CastIehard',
+      tags: ['RAG', 'LLMS', 'AZURE OPENAI', 'C#', 'VECTOR SEARCH'],
+    },
+    {
+      name: 'Organizer',
+      context: 'Public GitHub \u00b7 Python \u00b7 2026',
+      description:
+        'A compact Python automation project. It represents the practical side of my work: making small tools that remove friction, keep routines organized, and can be understood without a long setup story.',
+      href: 'https://github.com/CastIehard/Organizer',
+      tags: ['PYTHON', 'AUTOMATION', 'LOCAL TOOLS'],
     },
   ];
 
@@ -88,6 +99,21 @@ export default function ProjectsContent() {
               {project.description}
             </p>
 
+            <a
+              href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-body uppercase tracking-[0.08em] inline-block transition-colors duration-300 hover:text-[var(--primary-text)]"
+              style={{
+                fontSize: '12px',
+                color: 'var(--accent)',
+                marginTop: '18px',
+                textDecoration: 'none',
+              }}
+            >
+              View project
+            </a>
+
             {/* Tags */}
             <div className="flex flex-wrap gap-2" style={{ marginTop: '20px' }}>
               {project.tags.map((tag) => (
@@ -97,7 +123,7 @@ export default function ProjectsContent() {
                   style={{
                     fontSize: '11px',
                     color: 'var(--accent)',
-                    border: '1px solid rgba(201,169,110,0.3)',
+                    border: '1px solid rgba(103,242,200,0.3)',
                     padding: '6px 12px',
                   }}
                 >

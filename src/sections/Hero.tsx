@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import GinkgoField from '../components/GinkgoField';
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -69,6 +70,7 @@ export default function Hero() {
       className="relative flex flex-col items-center justify-center"
       style={{ minHeight: '100vh', padding: '0 24px', zIndex: 1 }}
     >
+      <GinkgoField />
       <div className="text-center" style={{ maxWidth: '700px' }}>
         {/* Label */}
         <div
@@ -81,7 +83,7 @@ export default function Hero() {
             transform: 'translateY(20px)',
           }}
         >
-          AI Software Developer & Robotics Master's Student
+          Robotics & AI student building practical intelligent systems
         </div>
 
         {/* Name */}
@@ -114,8 +116,8 @@ export default function Hero() {
             transform: 'translateY(20px)',
           }}
         >
-          Building intelligent systems at the intersection of AI, robotics, and real-world
-          applications. Currently researching at dmTECH while pursuing my Master's at UTN Nuremberg.
+          I turn research ideas into working prototypes: computer vision experiments, LLM tools,
+          robotics software, and small automations that solve real problems.
         </p>
 
         {/* CTA Buttons */}
@@ -138,11 +140,11 @@ export default function Hero() {
               textDecoration: 'none',
             }}
           >
-            Get in Touch
+            Contact
           </a>
 
           <a
-            href="https://github.com/Castlehard"
+            href="https://github.com/CastIehard"
             target="_blank"
             rel="noopener noreferrer"
             className="font-body text-[13px] font-medium uppercase tracking-[0.08em] inline-block transition-all duration-300 hover:border-[var(--accent)] hover:text-[var(--accent)]"
@@ -154,6 +156,21 @@ export default function Hero() {
             }}
           >
             GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/burghard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-[13px] font-medium uppercase tracking-[0.08em] inline-block transition-all duration-300 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+            style={{
+              border: '1px solid rgba(255,255,255,0.2)',
+              padding: '14px 36px',
+              color: 'var(--secondary-text)',
+              textDecoration: 'none',
+            }}
+          >
+            LinkedIn
           </a>
         </div>
       </div>

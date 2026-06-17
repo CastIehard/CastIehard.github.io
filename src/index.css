@@ -7,11 +7,12 @@
     --canvas-bg: #050505;
     --primary-text: #f0f0f0;
     --secondary-text: #8a8a8a;
-    --accent: #c9a96e;
+    --accent: #67f2c8;
+    --accent-blue: #2f8dff;
     --surface: rgba(255, 255, 255, 0.03);
     --border-color: rgba(255, 255, 255, 0.08);
-    --dot-bright: #d1a8ff;
-    --dot-dim: #3a1c5c;
+    --dot-bright: #67f2c8;
+    --dot-dim: #123b34;
     --font-display: 'Space Grotesk', sans-serif;
     --font-body: 'IBM Plex Mono', monospace;
   }
@@ -79,9 +80,179 @@
   animation: pulse-line 2s ease-in-out infinite;
 }
 
+.ginkgo-field {
+  position: absolute;
+  inset: auto 0 0 auto;
+  width: min(52vw, 720px);
+  height: min(62vw, 760px);
+  min-width: 520px;
+  min-height: 560px;
+  pointer-events: none;
+  opacity: 0.92;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.digital-tree-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 0 34px rgba(39, 164, 255, 0.2));
+}
+
+.tree-trunk,
+.tree-branch,
+.tree-root,
+.tree-circuit {
+  fill: none;
+  stroke: url("#treeLine");
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: url("#treeGlow");
+}
+
+.tree-trunk {
+  stroke-width: 8;
+  stroke-opacity: 0.88;
+}
+
+.tree-trunk-secondary {
+  stroke-width: 3;
+  stroke-opacity: 0.54;
+}
+
+.tree-branch {
+  stroke-width: 3.3;
+  stroke-opacity: 0.82;
+  stroke-dasharray: 340;
+  stroke-dashoffset: 340;
+  animation: tree-draw 5s ease-in-out infinite alternate;
+}
+
+.tree-root {
+  stroke-width: 2.4;
+  stroke-opacity: 0.68;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: tree-draw 6s ease-in-out infinite alternate;
+}
+
+.tree-root-main {
+  filter: drop-shadow(0 0 14px rgba(39, 164, 255, 0.45));
+}
+
+.tree-circuit {
+  stroke-width: 1.4;
+  stroke-opacity: 0.36;
+  stroke-dasharray: 28 18;
+  animation: tree-signal 6s linear infinite;
+}
+
+.tree-canopy-line {
+  fill: none;
+  stroke: rgba(102, 232, 255, 0.18);
+  stroke-width: 2;
+  filter: drop-shadow(0 0 18px rgba(102, 232, 255, 0.16));
+  animation: ginkgo-pulse 6s ease-in-out infinite;
+}
+
+.tree-mist {
+  animation: ginkgo-pulse 7s ease-in-out infinite;
+}
+
+.tree-particle {
+  fill: #69e8ff;
+  opacity: var(--particle-opacity);
+  filter: url("#treeGlow");
+  animation: tree-spark 3.8s ease-in-out infinite;
+  animation-delay: var(--particle-delay);
+}
+
+.digital-leaf {
+  position: absolute;
+  left: var(--leaf-left);
+  top: var(--leaf-top);
+  color: var(--accent);
+  opacity: 0.68;
+  animation: digital-leaf-drift var(--leaf-duration) ease-in-out infinite alternate;
+  animation-delay: var(--leaf-delay);
+  filter: drop-shadow(0 0 12px rgba(102, 232, 255, 0.42));
+}
+
+@keyframes digital-leaf-drift {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(0.92);
+  }
+  100% {
+    transform: translate3d(var(--leaf-x), var(--leaf-y), 0) rotate(var(--leaf-rotate)) scale(1.06);
+  }
+}
+
+@keyframes tree-spark {
+  0%,
+  100% {
+    opacity: calc(var(--particle-opacity) * 0.65);
+    transform: scale(0.86);
+  }
+  50% {
+    opacity: var(--particle-opacity);
+    transform: scale(1.18);
+  }
+}
+
+@keyframes tree-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes tree-signal {
+  to {
+    stroke-dashoffset: -92;
+  }
+}
+
+@keyframes ginkgo-pulse {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 0.68;
+    transform: scale(1.03);
+  }
+}
+
+@media (max-width: 860px) {
+  .ginkgo-field {
+    inset: 8vh 50% auto auto;
+    width: 520px;
+    height: 560px;
+    min-width: 0;
+    min-height: 0;
+    transform: translateX(50%);
+    opacity: 0.2;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .scroll-indicator-line {
+  .scroll-indicator-line,
+  .tree-branch,
+  .tree-root,
+  .tree-circuit,
+  .tree-canopy-line,
+  .tree-mist,
+  .tree-particle,
+  .digital-leaf {
     animation: none;
+  }
+
+  .scroll-indicator-line {
     opacity: 0.3;
+  }
+
+  .digital-leaf {
+    opacity: 0.26;
   }
 }

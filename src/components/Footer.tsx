@@ -11,13 +11,13 @@ export default function Footer() {
         className="font-body text-[11px]"
         style={{ color: 'rgba(255,255,255,0.2)' }}
       >
-        &copy; 2025 Luca Burghard
+        &copy; 2026 Luca Burghard
       </span>
 
       <div className="flex items-center gap-6">
         {[
-          { label: 'GitHub', href: 'https://github.com/Castlehard' },
-          { label: 'LinkedIn', href: 'https://linkedin.com/in/LucaBurghard' },
+          { label: 'GitHub', href: 'https://github.com/CastIehard' },
+          { label: 'LinkedIn', href: 'https://www.linkedin.com/in/burghard/' },
         ].map((link) => (
           <a
             key={link.label}

@@ -3,7 +3,7 @@ export default function OverviewContent() {
     { label: 'Location', value: 'Nuremberg, Germany' },
     { label: 'Current Role', value: 'AI Research Working Student @ dmTECH' },
     { label: 'Studying', value: 'M.Sc. Robotics & AI @ UTN Nuremberg' },
-    { label: 'Interests', value: 'Calisthenics, Long Distance Running, Hiking' },
+    { label: 'Outside Code', value: 'Calisthenics, distance running, hiking' },
   ];
 
   return (
@@ -25,7 +25,7 @@ export default function OverviewContent() {
               color: 'var(--primary-text)',
             }}
           >
-            Where code meets curiosity
+            Practical AI, grounded in real systems
           </h2>
 
           <div
@@ -38,20 +38,19 @@ export default function OverviewContent() {
             }}
           >
             <p style={{ marginBottom: '20px' }}>
-              I'm Luca — a 23-year-old developer based in Nuremberg, Germany. I spend my days bridging
-              the gap between cutting-edge AI research and practical engineering.
+              I'm Luca, a developer and Robotics & AI master's student in Nuremberg. I like the
+              part of AI where ideas stop being slides and start touching cameras, robots, tools,
+              and daily workflows.
             </p>
             <p style={{ marginBottom: '20px' }}>
-              At dmTECH, I work as an AI Research Working Student, evaluating state-of-the-art models
-              and building proofs of concept for industrial computer vision applications. On the academic
-              side, I'm pursuing a Master's in Robotics & AI at the University of Technology Nuremberg,
-              focusing on how intelligent algorithms can be embedded into physical systems.
+              At dmTECH I evaluate current AI and computer vision approaches and turn promising
+              directions into proof-of-concept systems. At UTN Nuremberg I focus on robotics,
+              embedded intelligence, and the math behind autonomous behavior.
             </p>
             <p>
-              My journey started with a Bachelor's in Mechatronics from DHBW, where I spent three years
-              as a dual student at SEW-EURODRIVE — evolving from hardware-focused engineering to building
-              AI-powered chatbots and machine learning pipelines. That blend of hands-on industry
-              experience and theoretical depth is what drives my approach today.
+              Before that, I studied mechatronics at DHBW while working at SEW-EURODRIVE. That
+              mix still shapes how I build: understand the physical system, keep the software
+              useful, and prove the idea with something that runs.
             </p>
           </div>
         </div>

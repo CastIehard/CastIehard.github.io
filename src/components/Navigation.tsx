@@ -1,7 +1,8 @@
-import { useCallback } from 'react';
+import { useCallback, type MutableRefObject } from 'react';
+import type Lenis from 'lenis';
 
 interface NavigationProps {
-  lenisRef: React.MutableRefObject<any>;
+  lenisRef: MutableRefObject<Lenis | null>;
 }
 
 export default function Navigation({ lenisRef }: NavigationProps) {

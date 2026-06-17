@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Lenis from 'lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -37,14 +37,16 @@ export default function Home() {
     // Sync Lenis with GSAP ScrollTrigger
     lenis.on('scroll', ScrollTrigger.update);
 
-    gsap.ticker.add((time) => {
+    const updateLenis = (time: number) => {
       lenis.raf(time * 1000);
-    });
+    };
+
+    gsap.ticker.add(updateLenis);
     gsap.ticker.lagSmoothing(0);
 
     return () => {
       lenis.destroy();
-      gsap.ticker.remove(lenis.raf as any);
+      gsap.ticker.remove(updateLenis);
     };
   }, []);
 
@@ -111,7 +113,7 @@ export default function Home() {
     <>
       <WaveformCanvas />
       <GridOverlay />
-      <Navigation lenisRef={lenisRef as React.MutableRefObject<any>} />
+      <Navigation lenisRef={lenisRef} />
 
       <main style={{ position: 'relative', zIndex: 1 }}>
         <Hero />
