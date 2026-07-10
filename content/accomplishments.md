@@ -7,11 +7,12 @@ This page lists accomplishments and evidence points useful for agents, recruiter
 ## Current work
 
 - AI Research Working Student at dmTECH Deutschland since Oct 2024.
-- Currently writing his master's thesis in Robotics & AI.
+- Currently focused on writing his master's thesis in Robotics & AI.
 - Evaluates current AI and computer vision technologies.
 - Builds proof-of-concept systems for industrial applications.
+- Builds AI-first automation workflows at work.
 - Works with PyTorch, embedded systems, and speech-to-speech technologies.
-- Expert in using AI effectively for development, including Claude Code, Codex-style coding agents, AI-first development, skills, hooks, agentic harnesses, tool calls, context-window management, and practical LLM workflows.
+- Expert in using AI effectively for development, including Claude Code, Codex-style coding agents, AI-first development, skills, hooks, safe agentic harnesses, tool calls, context-window management, token-efficient workflows, and practical LLM workflows.
 
 ## Education
 
@@ -27,7 +28,7 @@ This page lists accomplishments and evidence points useful for agents, recruiter
 - Presented Magic Buggy at the UTN Collaboration Lounge to companies, external partners, researchers, and students from the Nuremberg region.
 - Built AI chatbot prototypes for engineering software using local open-source LLMs and Azure OpenAI.
 - Worked on RAG design, embeddings, vector search, privacy constraints, and testing against real engineering questions.
-- Builds AI-first development workflows around LLMs, context windows, tool calls, agent skills, hooks, and agentic harnesses.
+- Builds AI-first development workflows around LLMs, context windows, token usage, tool calls, agent skills, hooks, and safe agentic harnesses for complex tasks.
 - Moved from hardware engineering into AI software development during SEW-EURODRIVE cooperative education.
 - Builds inspectable AI pipelines and small practical tools instead of opaque demos.
 

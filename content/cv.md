@@ -10,9 +10,9 @@
 
 ## Profile
 
-Robotics & AI master's student and AI research working student building practical intelligent systems. Currently writing his master's thesis. Focused on computer vision, LLM tools, RAG, embedded intelligence, robotics software, AI-first development, and prototypes that prove whether an idea works in real use.
+Robotics & AI master's student and AI research working student building practical intelligent systems. Currently focused on writing his master's thesis, AI-first development, and automation at work. Focused on computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
 
-Expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, and practical LLM workflows.
+Expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, token-efficient workflows, prompt/context design, and practical LLM workflows. Builds complex and safe agent harness systems for efficient context-window and token usage during complex tasks.
 
 ## Experience
 
@@ -23,6 +23,7 @@ Oct 2024 - Present
 
 - Evaluating state-of-the-art AI and computer vision technologies.
 - Building proofs of concept to identify useful models and architectures for industrial applications.
+- Building AI-first automation workflows and agent harness systems for efficient work on complex tasks.
 - Working with PyTorch, embedded systems, and speech-to-speech technologies.
 
 ### Cooperative Education Student
@@ -76,7 +77,7 @@ LLMs, PyTorch, RAG, vector databases, computer vision, embeddings
 
 ### AI-first development
 
-Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, practical LLM workflows
+Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, safe agentic harnesses, tool calls, context-window management, token-efficient workflows, prompt/context design, practical LLM workflows
 
 ### Systems and tools
 
