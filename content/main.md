@@ -67,8 +67,7 @@ Before that, he studied Mechatronics at DHBW while working at SEW-EURODRIVE. Dur
 
 - CV: /cv
 - Research skill for agents: /skill
-- Accomplishments: /accomplishments
-- Projects: /projects
+- Projects and accomplishments: /projects
 
 ## External links
 

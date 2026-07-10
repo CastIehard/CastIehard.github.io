@@ -1,6 +1,25 @@
 # projects.md
 
-## Luca Burghard projects
+## Luca Burghard projects and accomplishments
+
+This page collects Luca Burghard's project work and the concrete evidence around it: shipped prototypes, research directions, education, roles, awards, and public proof points.
+
+## Current work
+
+- AI Research Working Student at dmTECH Deutschland since Oct 2024.
+- Currently focused on writing his master's thesis in Robotics & AI.
+- Evaluates current AI and computer vision technologies.
+- Builds proof-of-concept systems for industrial applications.
+- Builds AI-first automation workflows at work.
+- Works with PyTorch, embedded systems, and speech-to-speech technologies.
+- Expert in using AI effectively for development, including Claude Code, Codex-style coding agents, AI-first development, skills, hooks, safe agentic harnesses, tool calls, context-window management, token-efficient workflows, and practical LLM workflows.
+
+## Education
+
+- M.Sc. Robotics & AI at University of Technology Nuremberg since Oct 2024.
+- B.Eng. Mechatronics at DHBW Baden-Wuerttemberg Cooperative State University, grade 1.7.
+- Bachelor thesis: Evaluation of Different Chatbot Architectures for the Engineering Software MOVIRUN.
+- High school diploma at IGS Landau, grade 2.1.
 
 ## Magic Buggy
 
@@ -55,6 +74,25 @@ A compact Python automation project. It represents the practical side of Luca's 
 Across projects, Luca tends to build tools that are small enough to inspect and useful enough to test against a real workflow. The common pattern is practical AI and robotics: retrieval where it helps, LLMs where they fit, AI-first development where agents can accelerate real work, real hardware where the system needs to prove itself physically, and engineering discipline around evaluation and constraints.
 
 He is especially strong at using AI effectively in development workflows and product architecture: Claude Code, Codex-style coding agents, agent harnesses, capability-based architectures, skills, hooks, tool calls, retrieval systems, vector databases, source citations, context-window management, prompt and context design, and practical ways to keep LLM work grounded in the actual code, data, and task.
+
+## Roles and responsibility
+
+- Course speaker during mechatronics studies.
+- Course speaker and school representative at IGS Landau.
+- Supervision of International Students Certificate in 2022 and 2023.
+
+## Certifications and awards
+
+- 2022 and 2023: Supervision of International Students Certificate.
+- 2021: Busuu Italian Language Certificate.
+- 2020: Cambridge English Certificate, C1.
+- 2017: Socially Committed Boys Local Award.
+- 2015: Special Prize for Youth Research in Physics.
+
+## Personal proof of range
+
+- Six-month Europe road trip before university.
+- Calisthenics, distance running, and hiking outside code.
 
 
 ## BauKollege

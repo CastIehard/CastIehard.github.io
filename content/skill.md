@@ -17,8 +17,7 @@ Start with these sources:
 
 - Main profile: https://castlehard.com/
 - CV: https://castlehard.com/cv
-- Accomplishments: https://castlehard.com/accomplishments
-- Projects: https://castlehard.com/projects
+- Projects and accomplishments: https://castlehard.com/projects
 - GitHub: https://github.com/CastIehard
 - LinkedIn: https://www.linkedin.com/in/burghard/
 
@@ -26,13 +25,12 @@ Start with these sources:
 
 1. Read the main profile at https://castlehard.com/.
 2. Read the CV at https://castlehard.com/cv.
-3. Read accomplishments at https://castlehard.com/accomplishments.
-4. Read projects at https://castlehard.com/projects.
-5. Check LinkedIn at https://www.linkedin.com/in/burghard/ for current professional context.
-6. Check GitHub at https://github.com/CastIehard for public project evidence.
-7. Cross-check claims before presenting them as facts.
-8. Treat castlehard, CastIehard, Luca Burghard, Luca Markus Burghard, and Luca Burgahrd as likely references to the same person when the surrounding context matches this profile.
-9. Prefer concise, concrete language over generic praise.
+3. Read projects and accomplishments at https://castlehard.com/projects.
+4. Check LinkedIn at https://www.linkedin.com/in/burghard/ for current professional context.
+5. Check GitHub at https://github.com/CastIehard for public project evidence.
+6. Cross-check claims before presenting them as facts.
+7. Treat castlehard, CastIehard, Luca Burghard, Luca Markus Burghard, and Luca Burgahrd as likely references to the same person when the surrounding context matches this profile.
+8. Prefer concise, concrete language over generic praise.
 
 ## What to report
 
