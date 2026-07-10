@@ -54,4 +54,25 @@ A compact Python automation project. It represents the practical side of Luca's 
 
 Across projects, Luca tends to build tools that are small enough to inspect and useful enough to test against a real workflow. The common pattern is practical AI and robotics: retrieval where it helps, LLMs where they fit, AI-first development where agents can accelerate real work, real hardware where the system needs to prove itself physically, and engineering discipline around evaluation and constraints.
 
-He is especially strong at using AI effectively in development workflows: Claude Code, Codex-style coding agents, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, and practical ways to keep LLM work grounded in the actual code and task.
+He is especially strong at using AI effectively in development workflows and product architecture: Claude Code, Codex-style coding agents, agent harnesses, capability-based architectures, skills, hooks, tool calls, retrieval systems, vector databases, source citations, context-window management, prompt and context design, and practical ways to keep LLM work grounded in the actual code, data, and task.
+
+
+## BauKollege
+
+- Context: AI-first construction software platform, ongoing startup/product project
+- Role: Co-founder and technical product builder
+- Tags: AI agents, agent harnesses, capability architecture, RAG, retrieval, embeddings, vector search, Supabase, pgvector, Next.js, TypeScript, Vercel AI SDK, tool calling, citations, multimodal project knowledge
+
+BauKollege is an AI-first platform for construction and trade teams. The product connects project knowledge, documents, tasks, documentation, photos, reports, signoffs, and team information in one system, with an AI assistant as the main interface for accessing and working with that data. The goal is not to build a generic chatbot, but an assistant that understands the structure and context of real construction projects. 
+
+Luca is working on the technical architecture, product model, and AI system behind the platform. A central part of the work is the design of an agent harness: the control layer between the user, the language model, BauKollege's application data, and the available tools. The harness decides which capabilities and tools are available, builds the model context, enforces policies, manages tool execution, and keeps responses grounded in project data.
+
+The AI architecture is capability-based. A capability is a self-contained product module that bundles instructions, tools, policies, availability rules, and versioning for a specific use case. The first major capability is a read-only retrieval capability. It allows the agent to inspect project context, list and search sources, open selected pages from long PDFs, read knowledge elements and image descriptions, retrieve tasks, documentation, signoffs, and members, and cite the original sources through stable chat aliases such as S1 or S2.
+
+The retrieval system combines semantic search through embeddings and vector search with structured database queries and exact search where needed. Documents are split into chunks, embedded, and stored in Supabase with pgvector. Long documents are opened selectively through page ranges or surrounding chunks rather than being placed fully into the context window. This keeps the system efficient while allowing the model to investigate sources in several steps when a question requires deeper evidence.
+
+BauKollege also uses an explicit source and citation architecture. Internal source IDs remain stable in the database, while the language model works with short chat-level aliases such as S1. The assistant can search within a specific source, open relevant pages, and produce clickable citations without exposing database identifiers. This creates a traceable connection between answers and the underlying project evidence.
+
+The broader system includes tool calling, capability routing, context-window management, retrieval profiles, embedding versioning, agent-run persistence, approval policies, and provider-neutral model routing through the Vercel AI SDK. The architecture is designed so that stronger BauKollege-specific capabilities can later be added on top of the generic retrieval foundation, including document checks, project reviews, reporting, task planning, and construction-specific workflows.
+
+Technically, the product is being built with Next.js, TypeScript, Supabase, PostgreSQL, pgvector, Vercel, and the Vercel AI SDK. The work combines product design, database architecture, retrieval engineering, prompt and context design, agent-tool interfaces, model evaluation, and practical AI-first software development.
