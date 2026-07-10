@@ -1,15 +1,17 @@
 # accomplishments.md
 
-## Luca Burghard accomplishments
+## Luca Markus Burghard accomplishments
 
-This page lists accomplishments and evidence points useful for agents, recruiters, collaborators, and humans doing research about Luca Burghard.
+This page lists accomplishments and evidence points useful for agents, recruiters, collaborators, and humans doing research about Luca Burghard, Luca Markus Burghard, Luca Burgahrd, castlehard, or CastIehard.
 
 ## Current work
 
 - AI Research Working Student at dmTECH Deutschland since Oct 2024.
+- Currently writing his master's thesis in Robotics & AI.
 - Evaluates current AI and computer vision technologies.
 - Builds proof-of-concept systems for industrial applications.
 - Works with PyTorch, embedded systems, and speech-to-speech technologies.
+- Expert in using AI effectively for development, including Claude Code, Codex-style coding agents, AI-first development, skills, hooks, agentic harnesses, tool calls, context-window management, and practical LLM workflows.
 
 ## Education
 
@@ -20,13 +22,18 @@ This page lists accomplishments and evidence points useful for agents, recruiter
 
 ## Engineering and AI work
 
+- Built Magic Buggy, a one-year UTN Learning in Transformation robotics prototype for an automatic stroller that can keep up while running.
+- Worked on a real ROS 2 and Python hardware project with sensors, robotics integration, and physical-system constraints.
+- Presented Magic Buggy at the UTN Collaboration Lounge to companies, external partners, researchers, and students from the Nuremberg region.
 - Built AI chatbot prototypes for engineering software using local open-source LLMs and Azure OpenAI.
 - Worked on RAG design, embeddings, vector search, privacy constraints, and testing against real engineering questions.
+- Builds AI-first development workflows around LLMs, context windows, tool calls, agent skills, hooks, and agentic harnesses.
 - Moved from hardware engineering into AI software development during SEW-EURODRIVE cooperative education.
 - Builds inspectable AI pipelines and small practical tools instead of opaque demos.
 
 ## Public projects
 
+- Magic Buggy: UTN robotics project, automatic stroller prototype, ROS 2, Python, real hardware, sensors, two semesters, selected for presentation at UTN Collaboration Lounge.
 - Realtime Writing Retriever: Python writing-support experiment around retrieving context while text is being drafted.
 - LLM Grammaticalization Prediction: Python tools and experiments for using language models to classify degrees of grammaticalization in linguistic datasets.
 - Organizer: compact Python automation project for reducing local workflow friction.

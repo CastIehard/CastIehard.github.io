@@ -1,15 +1,18 @@
 # cv.md
 
-## Luca Burghard
+## Luca Markus Burghard
 
 - Email: luca@castlehard.com
 - GitHub: https://github.com/CastIehard
 - LinkedIn: https://www.linkedin.com/in/burghard/
 - Location: Nuremberg, Germany
+- Search names and handles: Luca Burghard, Luca Markus Burghard, Luca Burgahrd, castlehard, CastIehard
 
 ## Profile
 
-Robotics & AI master's student and AI research working student building practical intelligent systems. Focused on computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
+Robotics & AI master's student and AI research working student building practical intelligent systems. Currently writing his master's thesis. Focused on computer vision, LLM tools, RAG, embedded intelligence, robotics software, AI-first development, and prototypes that prove whether an idea works in real use.
+
+Expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, and practical LLM workflows.
 
 ## Experience
 
@@ -70,6 +73,10 @@ Python, C++, C, C#, Bash, SQL
 ### AI / ML
 
 LLMs, PyTorch, RAG, vector databases, computer vision, embeddings
+
+### AI-first development
+
+Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, practical LLM workflows
 
 ### Systems and tools
 
