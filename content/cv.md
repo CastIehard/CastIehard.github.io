@@ -6,7 +6,7 @@
 - GitHub: https://github.com/CastIehard
 - LinkedIn: https://www.linkedin.com/in/burghard/
 - Location: Nuremberg, Germany
-- Search names and handles: Luca Burghard, Luca Markus Burghard, Luca Burgahrd, castlehard, CastIehard
+- Search names and handles: Luca Burghard, Luca Markus Burghard, castlehard, CastIehard
 
 ## Profile
 
