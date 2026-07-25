@@ -10,9 +10,11 @@
 
 ## Profile
 
-Robotics & AI master's student and AI research working student building practical intelligent systems. Currently focused on writing his master's thesis, AI-first development, and automation at work. Focused on computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
+Robotics & AI master's student and AI research working student building practical intelligent systems. Currently focused on writing his master's thesis, AI-first development, agentic AI, voice AI, and automation at work. Focused on intelligent agents, multi-turn speech systems, computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
 
 Expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, token-efficient workflows, prompt/context design, and practical LLM workflows. Builds complex and safe agent harness systems for efficient context-window and token usage during complex tasks.
+
+Strong at designing the structure around AI applications: choosing which model handles each task, deciding when tools should be used, coordinating agents, exposing files and project data to assistants, storing intermediate evidence, keeping systems responsive during complex work, and reviewing outputs before they reach users.
 
 ## Experience
 
@@ -25,6 +27,7 @@ Oct 2024 - Present
 - Building proofs of concept to identify useful models and architectures for industrial applications.
 - Building AI-first automation workflows and agent harness systems for efficient work on complex tasks.
 - Working with PyTorch, embedded systems, and speech-to-speech technologies.
+- Researching agentic speech systems and multi-turn voice assistants.
 
 ### Cooperative Education Student
 
@@ -44,7 +47,7 @@ University of Technology Nuremberg
 Oct 2024 - Present
 
 - Focus on integrating advanced AI algorithms into physical systems.
-- Coursework includes deep learning, applied mathematics, autonomous systems, and embedded intelligence.
+- Coursework and academic work include deep learning, applied mathematics, autonomous systems, embedded intelligence, reinforcement learning, probabilistic robotics, particle filters, state estimation, search and graph algorithms, dynamic programming, bias-variance analysis, and model evaluation.
 
 ### B.Eng. Mechatronics
 
@@ -73,11 +76,19 @@ Python, C++, C, C#, Bash, SQL
 
 ### AI / ML
 
-LLMs, PyTorch, RAG, vector databases, computer vision, embeddings
+LLMs, PyTorch, RAG, vector databases, computer vision, embeddings, model evaluation, machine-learning experimentation
 
 ### AI-first development
 
 Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, safe agentic harnesses, tool calls, context-window management, token-efficient workflows, prompt/context design, practical LLM workflows
+
+### Agentic and speech AI
+
+Tool calling, retrieval, memory, shared state, specialized sub-agents, verification workflows, multi-agent coordination, speech-to-speech systems, multi-turn voice assistants, interruption handling
+
+### AI system architecture
+
+Model routing, agent-tool interfaces, project knowledge systems, evidence storage, approval/review flows, responsive background work, product-oriented AI architecture
 
 ### Systems and tools
 

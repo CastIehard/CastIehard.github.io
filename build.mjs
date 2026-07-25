@@ -5,6 +5,7 @@ const rootDir = process.cwd();
 const contentDir = path.join(rootDir, 'content');
 const distDir = path.join(rootDir, 'dist');
 const cnamePath = path.join(rootDir, 'CNAME');
+const faviconPath = path.join(rootDir, 'logo.svg');
 
 const escapeHtml = (value) =>
   value
@@ -41,6 +42,7 @@ const htmlFromParts = ({ frontmatter, menuItems, body, title }) => `<!doctype ht
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)}</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
 html { color-scheme: dark; }
 body {
@@ -92,6 +94,17 @@ for (const fileName of files) {
   const sourcePath = path.join(contentDir, fileName);
   const markdown = await readFile(sourcePath, 'utf8');
   const { frontmatter, body } = splitFrontmatter(markdown);
+
+  if (fileName === 'main.md') {
+    await writeFile(path.join(distDir, 'index.html'), htmlFromParts({
+      frontmatter,
+      menuItems,
+      body,
+      title: 'AGENTS.md',
+    }));
+    continue;
+  }
+
   const slug = slugFromFile(fileName);
   const outputDir = path.join(distDir, slug);
 
@@ -103,19 +116,16 @@ for (const fileName of files) {
     title: titleFromFile(fileName),
   }));
   await writeFile(path.join(outputDir, fileName), markdown);
-
-  if (fileName === 'main.md') {
-    await writeFile(path.join(distDir, 'index.html'), htmlFromParts({
-      frontmatter,
-      menuItems,
-      body,
-      title: 'AGENTS.md',
-    }));
-  }
 }
 
 try {
   await copyFile(cnamePath, path.join(distDir, 'CNAME'));
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
+
+try {
+  await copyFile(faviconPath, path.join(distDir, 'favicon.svg'));
 } catch (error) {
   if (error.code !== 'ENOENT') throw error;
 }

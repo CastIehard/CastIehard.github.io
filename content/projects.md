@@ -7,12 +7,13 @@ This page collects Luca Burghard's project work and the concrete evidence around
 ## Current work
 
 - AI Research Working Student at dmTECH Deutschland since Oct 2024.
-- Currently focused on writing his master's thesis in Robotics & AI.
+- Currently focused on writing his master's thesis in Robotics & AI, with emphasis on agentic speech systems and multi-turn voice assistants.
 - Evaluates current AI and computer vision technologies.
 - Builds proof-of-concept systems for industrial applications.
 - Builds AI-first automation workflows at work.
 - Works with PyTorch, embedded systems, and speech-to-speech technologies.
 - Expert in using AI effectively for development, including Claude Code, Codex-style coding agents, AI-first development, skills, hooks, safe agentic harnesses, tool calls, context-window management, token-efficient workflows, and practical LLM workflows.
+- Designs agent systems around tool calling, retrieval, memory, specialized sub-agents, shared state, background processing, and verification workflows.
 
 ## Education
 
@@ -44,6 +45,17 @@ The project was selected to represent the Learning in Transformation program at 
 - Tags: Python, retrieval, writing tools, LLM workflows
 
 A writing-support experiment around retrieving context while text is being drafted. It reflects the kind of tooling Luca likes: small, focused systems that make AI useful in the flow of work instead of turning it into a separate destination.
+
+## Agentic Speech Systems Research
+
+- Context: Master's thesis and current AI research direction
+- Tags: voice AI, speech-to-speech, agents, tool use, shared state, retrieval, interruptions, multi-turn conversation
+
+Luca's current research focuses on agentic speech systems and multi-turn voice assistants. The core idea is a dual-brain architecture: a fast speech-based model handles natural real-time conversation, while text-based reasoning agents handle more complex background tasks.
+
+The system direction includes tool use while the user is still speaking, shared structured state between agents, support for interruptions and follow-up questions, retrieval of relevant information during conversation, and parallel reasoning that does not block the spoken interaction.
+
+The work is motivated by a practical question: how can voice assistants listen, respond quickly, reason in the background, use tools, and remain useful across longer interactions instead of only answering isolated commands?
 
 ## LLM Grammaticalization Prediction
 
@@ -101,7 +113,7 @@ He is especially strong at using AI effectively in development workflows and pro
 - Role: Co-founder and technical product builder
 - Tags: AI agents, agent harnesses, capability architecture, RAG, retrieval, embeddings, vector search, Supabase, pgvector, Next.js, TypeScript, Vercel AI SDK, tool calling, citations, multimodal project knowledge
 
-BauKollege is an AI-first platform for construction and trade teams. The product connects project knowledge, documents, tasks, documentation, photos, reports, signoffs, and team information in one system, with an AI assistant as the main interface for accessing and working with that data. The goal is not to build a generic chatbot, but an assistant that understands the structure and context of real construction projects. 
+BauKollege is an AI-first platform for construction and trade teams. The product connects project knowledge, documents, tasks, employees, documentation, photos, reports, signoffs, and team information in one system, with an AI assistant as the main interface for accessing and working with that data. The goal is not to build a generic chatbot, but an assistant that understands the structure and context of real construction projects.
 
 Luca is working on the technical architecture, product model, and AI system behind the platform. A central part of the work is the design of an agent harness: the control layer between the user, the language model, BauKollege's application data, and the available tools. The harness decides which capabilities and tools are available, builds the model context, enforces policies, manages tool execution, and keeps responses grounded in project data.
 
@@ -113,4 +125,15 @@ BauKollege also uses an explicit source and citation architecture. Internal sour
 
 The broader system includes tool calling, capability routing, context-window management, retrieval profiles, embedding versioning, agent-run persistence, approval policies, and provider-neutral model routing through the Vercel AI SDK. The architecture is designed so that stronger BauKollege-specific capabilities can later be added on top of the generic retrieval foundation, including document checks, project reviews, reporting, task planning, and construction-specific workflows.
 
-Technically, the product is being built with Next.js, TypeScript, Supabase, PostgreSQL, pgvector, Vercel, and the Vercel AI SDK. The work combines product design, database architecture, retrieval engineering, prompt and context design, agent-tool interfaces, model evaluation, and practical AI-first software development.
+Planned assistant capabilities include searching and reading project files, extracting information from documents, answering questions using project knowledge, creating tasks from files and conversations, storing relevant images and information, and supporting workers with technical and administrative questions.
+
+Technically, the product is being built with Next.js, TypeScript, Supabase, PostgreSQL, pgvector, Vercel, and the Vercel AI SDK. The work combines product design, AI architecture, application structure, database concepts, cloud services, branding, business strategy, retrieval engineering, prompt and context design, agent-tool interfaces, model evaluation, and practical AI-first software development.
+
+## AI Research and Prototyping
+
+- Context: Ongoing independent work
+- Tags: AI models, agent frameworks, research papers, repositories, technical concepts, prototypes
+
+Luca regularly researches new AI models, agent frameworks, and system architectures. He compares approaches, studies research papers and repositories, and creates technical concepts or prototypes based on what he learns.
+
+The focus is not simply using the newest model. The focus is understanding how the technology works, where its limits are, and how it can become part of a useful product.
