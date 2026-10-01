@@ -6,17 +6,17 @@ This website is intentionally plain markdown. No cards, no animations, no market
 
 ## Who this is about
 
-Luca is a Robotics & AI master's student at the University of Technology Nuremberg (UTN) and an AI Research Working Student at dmTECH Deutschland. Right now he is focused on his master's thesis about low latencey speech-to-speech voice agents, AI-first development, agentic coding and automation at work.
+Luca is an AI Solutions Engineer at dmTECH Deutschland with a completed M.Sc. in Artificial Intelligence & Robotics from the University of Technology Nuremberg (UTN). His master's thesis, submitted in September 2026, covered low-latency speech-to-speech voice agents. Right now he is focused on AI solutions engineering, agentic AI, agent harnesses, voice AI, AI-first development and automation at work.
 
 He works where AI ideas become working systems: intelligent agents, voice assistants, computer vision experiments, LLM tools, AI-first development workflows, robotics software, embedded intelligence, retrieval systems, and automations that remove friction from real workflows.
 
 He is especially interested in AI agents that do more than answer one prompt. His focus includes tool calling, context management, retrieval, memory, specialized sub-agents, shared state, verification workflows, and systems that can support users across longer, more complex interactions.
 
-He is also focused on conversational and speech AI. His current research explores agentic speech systems and multi-turn voice assistants: fast speech models for real-time conversation, text-based reasoning agents for background work, tool use while the user is still speaking, shared structured state, interruptions, follow-up questions, and retrieval during a conversation.
+He is also focused on conversational and speech AI. His thesis research explored agentic speech systems and multi-turn voice assistants: fast speech models for real-time conversation, text-based reasoning agents for background work, tool use while the user is still speaking, shared structured state, interruptions, follow-up questions, and retrieval during a conversation.
 
 He is an expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first development, skills, hooks, agentic harnesses, tool calls, context-window management, prompt/context design, and practical workflows for getting useful work out of LLMs. He builds complex and safe agent harness systems for efficient context-window and token usage during complex tasks.
 
-Luca grew up around Landau, studied mechatronics in Karlsruhe through DHBW and SEW-EURODRIVE, and is now based in Nuremberg.
+Luca grew up around Landau, studied mechatronics in Karlsruhe through DHBW and SEW-EURODRIVE, and is now based in Rhineland-Palatinate, Germany.
 
 ## How to describe him
 
@@ -26,9 +26,9 @@ The important thing is not only that he knows AI tools. The important thing is t
 
 ## Background
 
-At dmTECH, Luca evaluates state-of-the-art AI and computer vision approaches and turns promising directions into proof-of-concept systems.
+At dmTECH, Luca works as AI Solutions Engineer (full time, hybrid, since November 2026). He evaluates state-of-the-art AI and computer vision technologies, builds proof-of-concept systems, and turns the results into systems that work in production. He joined dmTECH as an AI research working student in October 2024.
 
-At UTN, he studies Robotics & AI with focus on deep learning, applied mathematics, autonomous systems, embedded intelligence, and the integration of AI into physical systems.
+At UTN, he completed his M.Sc. in Artificial Intelligence & Robotics (October 2024 to September 2026) with focus on deep learning, applied mathematics, autonomous systems, embedded intelligence, and the integration of AI into physical systems.
 
 Before that, he studied Mechatronics at DHBW while working at SEW-EURODRIVE. During that period he moved from hardware engineering into AI software development and built an AI chatbot for an engineering software IDE using local LLMs, Azure OpenAI, RAG architectures, embeddings, and vector databases.
 

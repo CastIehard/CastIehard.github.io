@@ -36,10 +36,10 @@ The project was selected to represent the Learning in Transformation program at 
 
 ## Agentic Speech Systems
 
-- Context: Master's thesis and current AI research direction
+- Context: Master's thesis, University of Technology Nuremberg, submitted September 2026
 - Tags: voice AI, speech-to-speech, agents, tool use, shared state, retrieval, interruptions, multi-turn conversation
 
-Luca's current research focuses on agentic speech systems and multi-turn voice assistants. The core idea is a dual-brain architecture: a fast speech-based model handles natural real-time conversation, while text-based reasoning agents handle more complex background tasks.
+Luca's master's thesis focused on agentic speech systems and multi-turn voice assistants. The core idea is a dual-brain architecture: a fast speech-based model handles natural real-time conversation, while text-based reasoning agents handle more complex background tasks.
 
 The system direction includes tool use while the user is still speaking, shared structured state between agents, support for interruptions and follow-up questions, retrieval of relevant information during conversation, and parallel reasoning that does not block the spoken interaction.
 

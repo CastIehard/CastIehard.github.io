@@ -5,12 +5,12 @@
 - Email: luca@castlehard.com
 - GitHub: https://github.com/CastIehard
 - LinkedIn: https://www.linkedin.com/in/burghard/
-- Location: Nuremberg, Germany
+- Location: Rhineland-Palatinate, Germany
 - Search names and handles: Luca Burghard, Luca Markus Burghard, castlehard, CastIehard
 
 ## Profile
 
-Robotics & AI master's student and AI research working student building practical intelligent systems. Currently focused on writing his master's thesis, AI-first development, agentic AI, voice AI, and automation at work. Focused on intelligent agents, multi-turn speech systems, computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
+AI Solutions Engineer at dmTECH Deutschland with a completed M.Sc. in Artificial Intelligence & Robotics, building practical intelligent systems. Currently focused on AI solutions engineering, AI-first development, agentic AI, voice AI, and automation at work. Focused on intelligent agents, multi-turn speech systems, computer vision, LLM tools, RAG, embedded intelligence, robotics software, and prototypes that prove whether an idea works in real use.
 
 Expert in using AI effectively for development: Claude Code, Codex-style coding agents, AI-first dev workflows, skills, hooks, agentic harnesses, tool calls, context-window management, token-efficient workflows, prompt/context design, and practical LLM workflows. Builds complex and safe agent harness systems for efficient context-window and token usage during complex tasks.
 
@@ -18,16 +18,25 @@ Strong at designing the structure around AI applications: choosing which model h
 
 ## Experience
 
+### AI Solutions Engineer
+
+dmTECH Deutschland  
+Nov 2026 - Present (full time, hybrid)
+
+- Evaluating state-of-the-art AI and computer vision technologies.
+- Running technical evaluations and building proofs of concept.
+- Turning evaluation results into systems that work in production.
+
 ### AI Research Working Student
 
 dmTECH Deutschland  
-Oct 2024 - Present
+Oct 2024 - Oct 2026
 
-- Evaluating state-of-the-art AI and computer vision technologies.
-- Building proofs of concept to identify useful models and architectures for industrial applications.
-- Building AI-first automation workflows and agent harness systems for efficient work on complex tasks.
-- Working with PyTorch, embedded systems, and speech-to-speech technologies.
-- Researching agentic speech systems and multi-turn voice assistants.
+- Evaluated state-of-the-art AI and computer vision technologies.
+- Built proofs of concept to identify useful models and architectures for industrial applications.
+- Built AI-first automation workflows and agent harness systems for efficient work on complex tasks.
+- Worked with PyTorch, embedded systems, and speech-to-speech technologies.
+- Researched agentic speech systems and multi-turn voice assistants.
 
 ### Cooperative Education Student
 
@@ -44,8 +53,9 @@ Oct 2021 - Sep 2024
 ### M.Sc. Robotics & AI
 
 University of Technology Nuremberg  
-Oct 2024 - Present
+Oct 2024 - Sep 2026
 
+- Master's thesis: low-latency speech-to-speech voice agents, submitted September 2026.
 - Focus on integrating advanced AI algorithms into physical systems.
 - Coursework and academic work include deep learning, applied mathematics, autonomous systems, embedded intelligence, reinforcement learning, probabilistic robotics, particle filters, state estimation, search and graph algorithms, dynamic programming, bias-variance analysis, and model evaluation.
 
